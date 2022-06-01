@@ -20,11 +20,5 @@ let package = Package(
             dependencies: [],
             resources: []
         ),
-        .testTarget(
-            name: "ContactsKitTests",
-            dependencies: [
-                "ContactsKit",
-            ]
-        ),
     ]
 )
